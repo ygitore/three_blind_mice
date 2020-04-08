@@ -11,6 +11,7 @@ const render = employeesToRender => {
     contentTarget.innerHTML = employeesToRender.map(
         (employeeObject) => {
             // Find the related computer for the current employee
+            
             const employeeComputer = computers.find(
                 (computer) => {
                     return computer.id === employeeObject.computerId
