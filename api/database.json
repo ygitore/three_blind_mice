@@ -41,6 +41,19 @@
             "computerId": 2,
             "departmentId": 3
         }
-     
-    ]   
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Accountant"
+        },
+        {
+            "id": 2,
+            "name": "Sales"
+        },
+        {
+            "id": 1,
+            "name": "IT"
+        }
+    ]
 }

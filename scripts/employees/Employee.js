@@ -1,9 +1,10 @@
-export const Employee = (employeeObject, computerObject) => {
+export const Employee = (employeeObject, computerObject, departmentObject) => {
     return `
         <section class="employee">
             <h2>${employeeObject.firstName} ${employeeObject.lastName}</h2>
             <div>${employeeObject.age}</div>
             <div>Current computer: ${computerObject.year} ${computerObject.model}</div>
+            <div>Department: ${departmentObject.name}</div>
         </section>
     `
 }
