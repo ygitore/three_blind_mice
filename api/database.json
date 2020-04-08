@@ -22,22 +22,25 @@
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
             "age": 26,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 2
         },
         {
             "id": 2,
             "firstName": "David",
             "lastName": "Richy",
             "age": 29,
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 1
         },
         {
             "id": 3,
             "firstName": "John",
             "lastName": "Mathew",
             "age": 32,
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 3
         }
      
-    ]
+    ]   
 }
