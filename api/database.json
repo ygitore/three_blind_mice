@@ -55,5 +55,53 @@
             "id": 3,
             "name": "IT"
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "sami dan"
+        },
+        {
+            "id": 2,
+            "name": "tyler swift"
+        },
+        {
+            "id": 3,
+            "name": "sofia daniel"
+        },
+        {
+            "id": 4,
+            "name": "elan mask"
+        },
+        {
+            "id": 5,
+            "name": "john doe"
+        }
+    ],
+    "employeeCustomer":[
+        {
+            "employeeeId": 1,
+            "customerId": 2
+        },
+        {
+            "employeeeId": 1,
+            "customerId": 3
+        },
+        {
+            "employeeeId": 3,
+            "customerId": 4
+        },
+        {
+            "employeeeId": 2,
+            "customerId": 4
+        },
+        {
+            "employeeeId": 2,
+            "customerId": 5
+        },
+        {
+            "employeeeId": 2,
+            "customerId": 2
+        }
     ]
 }
