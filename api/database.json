@@ -40,6 +40,14 @@
             "age": 32,
             "computerId": 2,
             "departmentId": 3
+        },
+        {
+            "id": 4,
+            "firstName": "Kate",
+            "lastName": "steve",
+            "age": 27,
+            "computerId": 1,
+            "departmentId": 2
         }
     ],
     "departments": [
@@ -78,30 +86,39 @@
             "name": "john doe"
         }
     ],
-    "employeeCustomer":[
+    "employeeCustomers":[
         {
-            "employeeeId": 1,
+            "employeeId": 1,
             "customerId": 2
         },
         {
-            "employeeeId": 1,
+            "employeeId": 1,
             "customerId": 3
         },
         {
-            "employeeeId": 3,
+            "employeeId": 2,
+            "customerId": 2
+        },
+        {
+            "employeeId": 2,
+            "customerId": 1
+        },
+        {
+            "employeeId": 3,
+            "customerId": 3
+        },
+        {
+            "employeeId": 1,
             "customerId": 4
         },
         {
-            "employeeeId": 2,
-            "customerId": 4
-        },
-        {
-            "employeeeId": 2,
+            "employeeId": 3,
             "customerId": 5
         },
         {
-            "employeeeId": 2,
-            "customerId": 2
+            "employeeId": 4,
+            "customerId": 5
         }
+
     ]
 }
